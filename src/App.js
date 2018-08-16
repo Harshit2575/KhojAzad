@@ -8,36 +8,7 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            data: [
-                {
-                    question: `1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum exercitationem explicabo laboriosam libero neque nisi officiis quibusdam vel veniam.`,
-                    answer: `Lorem`,
-                },
-                {
-                    question: `2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum exercitationem explicabo laboriosam libero neque nisi officiis quibusdam vel veniam.`,
-                    answer: `Lorem`,
-                },
-                {
-                    question: `3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum exercitationem explicabo laboriosam libero neque nisi officiis quibusdam vel veniam.`,
-                    answer: `Lorem`,
-                },
-                {
-                    question: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum exercitationem explicabo laboriosam libero neque nisi officiis quibusdam vel veniam.`,
-                    answer: `Lorem`,
-                },
-                {
-                    question: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum exercitationem explicabo laboriosam libero neque nisi officiis quibusdam vel veniam.`,
-                    answer: `Lorem`,
-                },
-                {
-                    question: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum exercitationem explicabo laboriosam libero neque nisi officiis quibusdam vel veniam.`,
-                    answer: `Lorem`,
-                },
-                {
-                    question: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cum exercitationem explicabo laboriosam libero neque nisi officiis quibusdam vel veniam.`,
-                    answer: `Lorem`,
-                },
-            ],
+            data: [],
             progress: [],
             questions: [],
             selectedTeam: 0,
@@ -55,13 +26,15 @@ class App extends Component {
         }
         else {
             let {totalTeams} = this.state;
-            const last = data.splice(data.length - 1);
+            const last = data.splice(data.length - 1)[0];
             const rest = data.splice(1);
             const first = data[0];
+            console.log(first, rest, last);
             this.setState({
                 progress: Array.from({length: totalTeams}).map(() => 0),
                 questions: Array.from({length: totalTeams}).map(() => [first, ...(this.shuffle(rest)), last])
             });
+            console.log(Array.from({length: totalTeams}).map(() => [first, ...(this.shuffle(rest)), last]))
         }
     }
 
@@ -79,7 +52,16 @@ class App extends Component {
 
                 {
                     progress.length && questions.length &&
-                    <h1>{progress[selectedTeam] + 1}. {questions[selectedTeam][progress[selectedTeam]].question}</h1>
+                    <h1>
+                        {
+                            progress.length && questions.length && progress[selectedTeam] !== questions[selectedTeam].length - 1
+                                ? progress[selectedTeam] + 1+'. '
+                                : ''
+                        }
+                        {
+                            questions[selectedTeam][progress[selectedTeam]].question
+                        }
+                    </h1>
                 }
                 {
                     progress.length && questions.length && progress[selectedTeam] !== questions[selectedTeam].length - 1
