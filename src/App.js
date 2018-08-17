@@ -14,7 +14,7 @@ class App extends Component {
             selectedTeam: 0,
             tempTeam: 1,
             answer: '',
-            totalTeams: 30,
+            totalTeams: 300,
         }
     }
 
