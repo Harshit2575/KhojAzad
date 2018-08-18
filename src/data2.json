@@ -1,9 +1,7 @@
 [
   {
     "question" : "Thor’s Mjolnir has just been discovered in a large, open field, the largest present nearby. Go here to find it. Are you worthy?",
-    "answer" : "9e0de55679a476d4140d6342a2375d56",
-    
-
+    "answer" : "9e0de55679a476d4140d6342a2375d56"
   },
   {
     "question" : "This place preserves everything in its storehouse of documents, even the codes of JARVIS after Ultron destroyed it. Go here to find the logs in the thousands of books here and help Tony Stark create Vision.",
@@ -40,7 +38,6 @@
     "answer" : "1496141bdeca967a2b3ac1eb05348212",
     "difficulty" : "hard"
   },
-
   {
     "question" : "After the battle against Loki, Tony Stark and the Avengers go to this place to enjoy a shawarma roll. You can also go here for some ice-cream after a hot and tiring day. ",
     "answer" : "62f15a8e56193f593d3177407a86f244",
