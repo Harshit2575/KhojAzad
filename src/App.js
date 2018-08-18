@@ -28,13 +28,15 @@ class App extends Component {
             let {totalTeams} = this.state;
             const last = data.splice(data.length - 1)[0];
             const rest = data.splice(1);
+            const easy = rest.filter(question => question.difficulty === 'easy');
+            const hard = rest.filter(question => question.difficulty === 'hard');
             const first = data[0];
-            console.log(first, rest, last);
+            // console.log(first, easy, hard, last);
             this.setState({
                 progress: Array.from({length: totalTeams}).map(() => 0),
-                questions: Array.from({length: totalTeams}).map(() => [first, ...(this.shuffle(rest)), last])
+                questions: Array.from({length: totalTeams}).map(() => [first, ...(this.shuffle(easy)), ...(this.shuffle(hard)), last])
             });
-            console.log(Array.from({length: totalTeams}).map(() => [first, ...(this.shuffle(rest)), last]))
+            // console.log(Array.from({length: totalTeams}).map(() => [first, ...(this.shuffle(easy)), ...(this.shuffle(hard)), last]))
         }
     }
 
