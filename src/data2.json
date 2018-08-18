@@ -1,82 +1,107 @@
 [
   {
-    "question" : "There are 14,000,605 possible situations in the universe that we have viewed already, but there is only one in which you can solve this",
-    "answer" : "30FAAC023215B81FEF26E0FC9C80F612"
-  },
-  {
-    "question" : "The Hulk is at his angriest ever, and is wreaking havoc everywhere you can see. Go to this place to stop the destruction by trying to calm the Hulk down",
-    "answer" : "3FC3FADA72E88F3786CE71123B4CB048"
-  },
-  {
-    "question" : "Steve Rogers and Peter Parker were normal humans, before a visit here changed them into heroes. Get your superhuman problem solving skills from here",
-    "answer" : "035D1198458B6460B161B02B8C749450"
-  },
-  {
-    "question" : "You found a huge cluster of gemstones, from which you must isolate the infinity stones. Go here to obtain the stones, and make all things perfectly balanced, as they should be.",
-    "answer" : "68648222D677A3185661BA51E26D8C5B"
-  },
-  {
-    "question" : "Jason Stryker has fashioned a mystical world in front of you, and you need to figure out what is real and what is a dream. You stop for a bite at this place as you figure out a way to solve this dilemma.",
-    "answer" : "0379187826EC11BBB8F5B6722C735BBC"
-  },
-  {
-    "question" : "Located in a quaint place, the Avengers decide to take a breather here as they grab a bite and figure out their plans to defeat Ultron. Look around you as you get this clue as an additional.",
-    "answer" : "E4101DB572DE793C775FA6E9D64FA273"
-  },
-  {
-    "question" : "Loki has disappeared after he stole the tesseract, and he is nowhere to be found. You need to find Loki to retrieve the tesseract. Funnily enough, he’s in campus, and at a place all of you have definitely visited.",
-    "answer" : "D94D4164E9B9969FD1229A76059ABA97"
-  },
-   {
-    "question" : "You have just discovered Captain America embedded in ice underwater, and need to rescue him. Go to this place to get assistance.",
-    "answer" : "B6AEFB676EF36B93F41F6464163FFE80"
-  },
+    "question" : "Thor’s Mjolnir has just been discovered in a large, open field, the largest present nearby. Go here to find it. Are you worthy?",
+    "answer" : "9e0de55679a476d4140d6342a2375d56",
+    
 
-  {
-    "question" : "This centre was responsible for the creation of JARVIS, and then FRIDAY. ",
-    "answer" : "9DF275478564492C7B490A63DCEBC317"
   },
   {
-    "question" : "Thor and Hulk decided to fight in here, as it resembles the Grandmaster’s arena.",
-    "answer" : "BF164FC9630B5D05F745D5EA779D866B"
-  },
- {
-    "question" : "Eitri, Rocket and Groot forge Thor’s new hammer, Stormbreaker in this place, which can be hot enough to melt metal if required.",
-    "answer" : "1BCE616D2582F6488C4B885F7517E7F5"
+    "question" : "This place preserves everything in its storehouse of documents, even the codes of JARVIS after Ultron destroyed it. Go here to find the logs in the thousands of books here and help Tony Stark create Vision.",
+    "answer" : "77581e838be3707a2eaae5097c850edf",
+    "difficulty" : "easy" 
   },
   {
-    "question" : "This place preserves everything in its storehouse of documents, even the codes of JARVIS after Ultron destroyed it, enabling Tony Stark to create Vision.",
-    "answer" : "6BA7F77AFCC5FD4C59CBF23293705F40"
-  },
-   {
-    "question" : "After the battle against Loki, Tony Stark goes to this place to enjoy a shawarma roll.",
-    "answer" : "80CFF181A3B4E394263CD6F7694C349B"
+    "question" : "Thor and Hulk decided to fight in here, as it resembles the Grandmaster’s arena. It can accommodate over 3000 spectators to see the fights.",
+    "answer" : "eeff337c8754be6d6edf45ed56a689dc",
+    "difficulty" : "easy"
   },
   {
-    "question" : "This place is an institution that teaches you to use and improve your powers, and to use them with ethics, as Professor X would do. Complete with recreation rooms and sports fields, it truly teaches you the A-Z of life.",
-    "answer" : "312E23D98B70B9215660E4DF800CEDBE"
-  },
-   {
-    "question" : "The X-Men are required with William Stryker unleashing havoc on the mutants. As Beast, take control of the X-Jet, which is kept here.",
-    "answer" : "D374A0224D4D69D5CD9236D825705EB2"
-  },
-   {
-    "question" : "The Wakandans used Vibranium to create their superior technology at this place. Yibambe!",
-    "answer" : "A661365DA0FC0B9B47CB6B64B30858B8"
-  },
-
-  {
-    "question" : "The arc reactor that powered Stark Industries was originally built here, just so it could be cooled underwater in case of a malfunction.",
-    "answer" : "376D8558FA93362CE79D35DE4185EDB5"
-  },
-
-{
-    "question" : "Thor’s Mjolnir has just been discovered in a large, open field. Go here to find it. Are you worthy?",
-    "answer" : "CCA8B830CDBF940F4BA499AD0F3FEA13"
+    "question" : "The Hulk is at his angriest ever, and is wreaking havoc everywhere you can see. Go to this place to stop the destruction by trying to get psychological help to calm the Hulk down.",
+    "answer" : "0c6f8f617162b1c41e9f7bc8e0d8150a",
+    "difficulty" : "easy"
   },
   {
     "question" : "As a fan of the MCU, you go to this place to see the movies in all grandeur. Don’t wear shorts if you plan on going here!",
-    "answer" : "A29A20B25513D8B30C93A1B9DA9DC716"
+    "answer" : "f345f327f3d8c33ae3dc01ead74c54f3",
+    "difficulty" : "easy"
+  },
+  {
+    "question" : "This centre was responsible for the creation of Artificial Intelligences like JARVIS, and then FRIDAY.",
+    "answer" : "a1e1775cf56724473586c45a48f243ef",
+    "difficulty" : "easy"
+  },
+  {
+    "question" : "The X-Men are required, as William Stryker is unleashing havoc on the mutants. As Beast, pilot of the X-Jet, which is kept here.",
+    "answer" : "deee54c7faa9090e312230a58d0ee1a5",
+    "difficulty" : "easy"
+  },
+   {
+    "question" : "This place is an institution that teaches you to use and improve your powers, and to use them with ethics, as Professor X would do. Inculcating a serious culture and bonding among students by today’s event, it truly teaches you the A-Z of life.",
+    "answer" : "1496141bdeca967a2b3ac1eb05348212",
+    "difficulty" : "hard"
+  },
+
+  {
+    "question" : "After the battle against Loki, Tony Stark and the Avengers go to this place to enjoy a shawarma roll. You can also go here for some ice-cream after a hot and tiring day. ",
+    "answer" : "62f15a8e56193f593d3177407a86f244",
+    "difficulty" : "hard"
+  },
+  {
+    "question" : "You have just discovered Captain America embedded in ice underwater, and need to rescue him. Go to this place to get a submarine and retrieve the Captain from the ocean.",
+    "answer" : "af7dce565b5211c972ab2e543cdd20b6",
+    "difficulty" : "hard" 
+     },
+ {
+    "question" : "You found a huge cluster of gemstones, from which you must isolate the infinity stones. Go here to obtain the stones, and make all things perfectly balanced, as they should be.",
+    "answer" : "047cc52dfa4fa21a098f2ab0a416aa7b",
+    "difficulty" : "hard"
+  },
+  {
+    "question" : "The Wakandans used Vibranium to create their superior technology at this place. Yibambe!",
+    "answer" : "bc174c2ff85f7116d3045cfa1bf975de",
+    "difficulty" : "hard"
+  },
+   {
+    "question" : "Steve Rogers and Peter Parker were normal humans, before a visit here changed them into heroes. Get your genetic mutations, spidey senses and superhuman problem solving skills from here.",
+    "answer" : "2fc60a7556fa0f2ca3ccf986ddfda0f7",
+    "difficulty" : "hard"
+  },
+  {
+    "question" : "There are 14,000,605 possible situations in the universe that we have viewed already, but there is only one where you can win. Go here to find the person who will heal you and who foresaw all the possible situations.",
+    "answer" : "0535ca52d61ace71b00c08e3e51cd350",
+    "difficulty" : "hard"
+  },
+   {
+    "question" : "Dr. Hank Pym bought all the computers and other peripherals and accessories from this place for his cutting-edge lab. Locate this in a place you have surely visited on your first day here.",
+    "answer" : "e5550aacf4007fdb8a830194b22d5bfb",
+    "difficulty" : "hard"
+  },
+   {
+    "question" : "Jason Stryker has fashioned a mystical world in front of you. You find yourself in a  dream world, and stop for some delicious food at this place, while you try and solve this problem.",
+    "answer" : "c06871eeee6c49dabd707dc1658dc594",
+    "difficulty" : "hard"
+  },
+
+  {
+    "question" : "The arc reactor that powered Stark Industries was originally built here because it contains a large quantity of water so it could be cooled underwater in case of a malfunction.",
+    "answer" : "426fb94e8fa56e25f5caa59998076614",
+    "difficulty" : "hard"
+  },
+
+{
+    "question" : "Eitri, Rocket and Groot forge Thor’s new hammer, Stormbreaker in this place, which can be very hot if required and is the only place to melt metal.",
+    "answer" : "8347c4432f6c2311806c0ef34f38dc4a",
+    "difficulty" : "hard"
+  },
+  {
+    "question" : " Located in a quaint place near a pink building, the Avengers decide to take a breather here as they grab a bite and figure out their plans to defeat Ultron. One of the few places where gender discrimination is absent, look around you as you get this clue for an additional hint.",
+    "answer" : "312d8b6aff03ffc0b7b2f28572e4f507",
+    "difficulty" : "hard"
+  },
+  {
+  	"question" : "Loki has disappeared after he stole the tesseract, and he is nowhere to be found. You need to find Loki to retrieve the tesseract.  Find him in a place where you can find (and purchase) literally anything, and have surely visited before.",
+    "answer" : "1afd9c006eca7597b0dc290d5e92a2f1",
+    "difficulty" : "hard"
   },
 
   {
